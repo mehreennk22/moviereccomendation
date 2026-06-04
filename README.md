@@ -1,20 +1,20 @@
-# 🎬 Movie Recommendation System
+## Movie Recommendation System
 
 This project builds a hybrid **Movie Recommendation System** using both **Collaborative Filtering** (Alternating Least Squares - ALS) and **Content-Based Filtering** (TF-IDF + Cosine Similarity) techniques on the MovieLens dataset. It also includes Exploratory Data Analysis (EDA) to uncover insights about movie ratings and user preferences.
 
-## 📌 Features
+## Features
 
-- 📈 Exploratory Data Analysis (EDA) on user ratings and movies
-- 🤝 Collaborative Filtering using ALS (PySpark MLlib)
-- 🧠 Content-Based Filtering using TF-IDF on genres
-- 🔍 Hybrid Recommendation functionality using Streamlit UI
-- 📊 RMSE-based model evaluation
-- 💡 Clean and interactive user interface
+-  Exploratory Data Analysis (EDA) on user ratings and movies
+-  Collaborative Filtering using ALS (PySpark MLlib)
+-  Content-Based Filtering using TF-IDF on genres
+-  Hybrid Recommendation functionality using Streamlit UI
+-  RMSE-based model evaluation
+-  Clean and interactive user interface
 
-## 📁 Project Structure
+##  Project Structure
 
 
-## ⚙️ How It Works
+## How It Works
 
 ### 1. Collaborative Filtering (ALS)
 - Trains an ALS model to learn latent user and movie factors.
@@ -31,14 +31,14 @@ This project builds a hybrid **Movie Recommendation System** using both **Collab
   - Similar movies based on genres (content-based)
   - Top-rated unseen movies for the user (collaborative)
 
-## 📊 Exploratory Data Analysis Highlights
+## Exploratory Data Analysis Highlights
 
 - Distribution of user ratings
 - Most-rated and highest-rated movies
 - Average ratings over time
 - Insights into user and movie behavior
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
